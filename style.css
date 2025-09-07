@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(abstract-13-light-background-wallpaper-colorful-gradient-blurry-soft-smooth-motion-bright-shine_792836-38775.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.mx-auto{
+    margin: auto;
+    max-width: 28vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.center{
+    text-align: center;
+    margin: 1rem;
+    background: none;
+}
+
+
+.but{
+    padding: 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: white; 
+}
+
+.input{
+    width: 90%;
+    height: 50px;
+    margin: 15px;
+    font-size: 1.5rem;
+    background-color: white; 
+}
+
+.but:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.container{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:rgba(252, 248, 248, 0.774);
+    border: 2px solid black;
+}
