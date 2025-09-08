@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1 class="center">Calculate!</h1>
-    <div class="container mx-auto"> 
-        <input type="text" class="input center">  
-        <div class="row center">
-            <button class="but">C</button>
-            <button class="but">()</button>
-            <button class="but">%</button>
-            <button class="but">/</button>
-        </div>
-        <div class="row center">
-            <button class="but">7</button>
-            <button class="but">8</button>
-            <button class="but">9</button>
-            <button class="but">*</button>
-        </div>
-        <div class="row center">
-            <button class="but">4</button>
-            <button class="but">5</button>
-            <button class="but">6</button>
-            <button class="but">-</button>
-        </div>
-        <div class="row center">
-            <button class="but">1</button>
-            <button class="but">2</button>
-            <button class="but">3</button>
-            <button class="but">+</button>
-        </div>
-        <div class="row center">
-            <button class="but">+/-</button>
-            <button class="but">0</button>
-            <button class="but">.</button>
-            <button class="but">=</button>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CALCULATE</title>
+  </head>
+  <body>
+    <h1>CALCULATE</h1>
+    <div class="" id="calculator">
+      <input type="text" id="display" readonly />
+      <div class="" id="keys">
+        <button onclick="appendtodisplay('+')" class="operatorbtn">+</button>
+        <button onclick="appendtodisplay('7')">7</button>
+        <button onclick="appendtodisplay('8')">8</button>
+        <button onclick="appendtodisplay('9')">9</button>
+        <button onclick="appendtodisplay('-')" class="operatorbtn">-</button>
+        <button onclick="appendtodisplay('4')">4</button>
+        <button onclick="appendtodisplay('5')">5</button>
+        <button onclick="appendtodisplay('6')">6</button>
+        <button onclick="appendtodisplay('*')" class="operatorbtn">*</button>
+        <button onclick="appendtodisplay('1')">1</button>
+        <button onclick="appendtodisplay('2')">2</button>
+        <button onclick="appendtodisplay('3')">3</button>
+        <button onclick="appendtodisplay('/')" class="operatorbtn">/</button>
+        <button onclick="appendtodisplay('0')">0</button>
+        <button onclick="appendtodisplay('.')">.</button>
+        <button onclick="calculate()" class="operatorbtn">=</button>
+        <button onclick="clearDisplay()" class="operatorbtn">C</button>
+      </div>
     </div>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
